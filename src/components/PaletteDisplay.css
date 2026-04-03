@@ -1,0 +1,81 @@
+.pd-wrapper {
+  animation: fadeUp 0.4s ease;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.pd-label {
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #aaa;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.pd-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0 0 6px;
+}
+
+.pd-desc {
+  font-size: 14px;
+  color: #777;
+  line-height: 1.65;
+  margin: 0 0 1.5rem;
+}
+
+.pd-swatches {
+  display: flex;
+  border-radius: 14px;
+  overflow: hidden;
+  height: 180px;
+  margin-bottom: 1rem;
+}
+
+.pd-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.pd-tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.pd-tag {
+  font-size: 11px;
+  padding: 3px 10px;
+  border-radius: 5px;
+  color: #888;
+  background: #f0f0ec;
+  border: 1px solid #e8e8e4;
+}
+
+.pd-export-btn {
+  font-size: 12px;
+  color: #888;
+  background: none;
+  border: 1px solid #e8e8e4;
+  border-radius: 7px;
+  padding: 6px 14px;
+  cursor: pointer;
+  font-family: 'DM Sans', sans-serif;
+  transition: all 0.15s;
+}
+
+.pd-export-btn:hover {
+  color: #333;
+  border-color: #aaa;
+}
